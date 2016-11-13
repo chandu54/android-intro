@@ -7,9 +7,10 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.hello.Tutorial">
 
+
     <!-- Add idTutorialText textbox to the activity. You can drag-n-drop from
         the Design tab or uncomment the section below. -->
-    <!--TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
@@ -19,16 +20,16 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="226dp"
         android:layout_marginEnd="226dp"
-        android:layout_marginTop="113dp" /-->
+        android:layout_marginTop="113dp" />
 
     <!-- Add idTutoriaButton button to the activity. You can drag-n-drop from
         the Design tab or uncomment the section below. -->
-    <!--Button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click Me!"
         android:id="@+id/idTutorialButton"
         android:layout_below="@+id/idTutorialText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="131dp" /-->
+        android:layout_marginTop="131dp" />
 </RelativeLayout>
